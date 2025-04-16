@@ -437,7 +437,7 @@ color:var(--primary-light);
       }
     
       .hero-text p {
-        font-size: 1rem;
+        font-size: 16px;
         line-height: 1.6;
       }
     
@@ -447,8 +447,8 @@ color:var(--primary-light);
       }
     
       .btn {
-        width: 100%;
-        text-align: center;
+        width: 106%;
+        
       }
     }
     .Features2-content, .Features1-content{
