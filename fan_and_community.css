@@ -401,7 +401,7 @@ color:var(--primary-light);
   @media (max-width: 768px) {
     @media (max-width: 768px) {
       .hero {
-        min-height: 100%;
+        
         padding: 2rem 1rem;
         background-position: center;
       }
@@ -436,19 +436,17 @@ color:var(--primary-light);
         line-height: 1.4;
       }
     
-      .hero-text p {
-        font-size: 16px;
-        line-height: 1.6;
-      }
+     
     
       .hero-buttons {
         flex-direction: column;
         align-items: center;
       }
     
-      .btn {
+      .btn,.btn-primary{
         width: 106%;
-        
+        margin-left: 0;
+
       }
     }
     .Features2-content, .Features1-content{
@@ -474,9 +472,12 @@ color:var(--primary-light);
     
   }
 
-  @media (max-width: 300px) {
-  
+  @media (max-width: 450px) {
+  .btn,.btn-primary{
+    width: 108%;
+    
 
+  }  
   }
  
   
